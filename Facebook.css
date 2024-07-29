@@ -1,0 +1,343 @@
+/* -------------------Start Header------------------------ */
+
+header {
+  background-color: white;
+  height: 50px;
+  box-shadow: 5px 5px 5px gray;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+header input {
+  border-radius: 20px;
+  background-color: rgb(214, 236, 245);
+  font-size: medium;
+  height: 35px;
+  width: 250px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+input::placeholder {
+  font-style: oblique;
+}
+.rad_50 {
+  border-radius: 50%;
+}
+
+header img {
+  width: 35px;
+  height: 35px;
+}
+.right {
+  align-items: center;
+  margin-left: 10px;
+  display: flex;
+  gap: 10px;
+}
+.middle {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.left {
+  margin-right: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* -------------------End Header------------------------ */
+
+/* -----------------------Start Body-------------------------- */
+
+.big_div {
+  margin-top: 100px;
+  justify-content: space-between;
+  display: flex;
+
+  height: 100vh;
+}
+.right_div,
+.left_div {
+  background-color: #f2f3f5;
+  width: 350px;
+  height: 100%;
+}
+.right_div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  height: fit-content, 100vh;
+}
+h4 {
+  text-align: center;
+}
+.rights {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  direction: rtl;
+  margin-right: 10px;
+}
+.middle_div {
+  width: 700px;
+  height: 100%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  right: 50%;
+  left: 50%;
+}
+/* ----------------------Start Stories----------------------------- */
+.top {
+  width: 700px;
+  height: 250px;
+  background-color: #f2f3f5;
+  display: flex;
+  gap: 15px;
+  direction: rtl;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.addSto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+  width: 110px;
+  height: 210px;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: all 250ms ease;
+}
+.addSto:hover {
+  scale: 1.01;
+}
+
+.addSto img {
+  width: 100%;
+  height: 70%;
+  border-radius: 15px;
+}
+.stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 110px;
+  height: 210px;
+
+  margin-top: 10px;
+  border-radius: 15px;
+  transition: all 250ms ease;
+}
+.stories:hover {
+  scale: 1.01;
+}
+.top_and_mid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ----------------------End Stories----------------------------- */
+
+.mid {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* -------------------Left_Div----------------------- */
+
+.left_div {
+  display: flex;
+  direction: rtl;
+  gap: 10px;
+  height: fit-content;
+}
+.myAcc {
+  display: flex;
+  gap: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+.bottomHalf {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  direction: rtl;
+}
+.noti {
+  margin-right: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* -------------------Left_Div----------------------- */
+.svg {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.button {
+  background-color: #f2f3f5;
+  width: 100%;
+  height: calc(100% - 330px);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* posts */
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.poster {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.poster_Name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left_half {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+  gap: 10px;
+}
+.right_half {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.name_and_time {
+  display: flex;
+  flex-direction: column;
+}
+.close_svg {
+  display: flex;
+  gap: 15px;
+}
+.svg-small {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.small_svg {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+.post_image {
+  width: 100%;
+  height: 400px;
+  border-radius: 15px;
+}
+hr {
+  width: 80%;
+}
+.reacts {
+  display: flex;
+  justify-content: space-around;
+  direction: rtl;
+}
+.my_comment {
+  display: flex;
+
+  direction: rtl;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.img_and_input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comment_svg {
+  display: flex;
+  gap: 8px;
+  width: fit-content;
+  height: fit-content;
+  margin-right: -140px;
+}
+input {
+  padding-right: 10px;
+}
+/* posts */
+/* -----people you may know------ */
+.people_you_may_know {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 680px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+}
+.people {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  width: 160px;
+  height: 80%, fit-content;
+
+  padding-bottom: 10px;
+}
+.pranch {
+  direction: rtl;
+  display: flex;
+  gap: 20px;
+}
+button {
+  width: 120px;
+  height: 30px;
+  margin-left: -10px;
+  background-color: #cae5ff;
+  color: #0064d1;
+  font-size: large;
+}
+span {
+  padding-left: -30px;
+}
+.add_friend {
+  display: flex;
+  align-items: center;
+}
+.butt {
+  display: flex;
+  gap: 7px;
+  justify-content: space-around;
+  align-items: center;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #ebf5ff;
+  cursor: pointer;
+  margin-right: 15px;
+}
+/* -----people you may know------ */
+
+/* -----------------------End Body-------------------------- */
